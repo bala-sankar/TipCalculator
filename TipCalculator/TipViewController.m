@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Tip Calculator";
+    self.title = @"Tippr";
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:5 forKey:@"tip1"];
     [defaults setInteger:10 forKey:@"tip2"];
